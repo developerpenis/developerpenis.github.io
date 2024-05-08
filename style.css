@@ -1,0 +1,107 @@
+@media only screen and (max-width:768px)
+{
+.cajita-1{
+    margin-left: 400px;
+    width: 300px;
+    height: 200px;
+    color: blue;
+    background-color: blue;
+
+   
+}
+.cajita-2{
+   grid-row: 2/2;
+   margin-left: 400px;
+    width: 300px;
+    height: 200px;
+    color: red;
+    background-color: red;
+
+}
+.cajita-3{
+    margin-left:400px;
+   grid-row: 3/3;
+    width: 300px;
+    height: 200px;
+    color: blueviolet;
+    background-color: blueviolet;
+
+   
+}
+}
+header{
+display: grid;
+grid-template-columns: 3fr 1fr 1fr;
+grid-gap: 10px;
+
+}
+
+@media only screen and (min-width: 769px){
+.cajita-4{
+  margin-right: 40px;
+  grid-column: 2/2;
+    display:grid;
+    width: 300px;
+    height: 200px;
+    color: coral;
+    background-color: coral;
+
+ 
+}
+.cajita-5{
+  margin-left: 750px;
+  grid-column: 1/3;
+    width: 300px;
+    height: 200px;
+    color:darkgreen;
+    background-color:darkgreen;
+
+
+
+ 
+}
+.cajita-6{
+
+    grid-column: 2/2;
+    width: 300px;
+    height: 200px;
+    color: gold;
+    background-color:gold;
+   
+}
+}
+@media only screen and (max-width: 320px){
+
+.cajita-7{
+    width: 300px;
+    height: 200px;
+    color: deeppink;
+    background-color: deeppink;
+    position: absolute;
+    margin-left:90px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    z-index: 1;
+}
+.cajita-8{
+    width: 300px;
+    height: 200px;
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    position:absolute;
+    margin-top: 210px;
+    margin-left: 90px;
+
+}
+.cajita-9{
+    width: 300px;
+    height: 200px;
+    color:greenyellow;
+    background-color: greenyellow;
+    position:absolute;
+    margin-top: 420px;
+    margin-left: 90px;
+}
+}

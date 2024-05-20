@@ -36,6 +36,9 @@ switch(pedido.toLowerCase()) {
         break;
     case "verdura":
         console.log("Si eliges verdura, viene incluido con un agua")
+        break;
+    default:
+        console.log("Elige algunas de estas 3 opciones: Carne, Verdura, Pescado")
 }
 
 

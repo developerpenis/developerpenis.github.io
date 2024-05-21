@@ -52,14 +52,12 @@ for (index ; index >= 0 ; index--) {
     console.log(array[index]);
 }
 
-var numero=6;
-while(numero==6){
-    console.log(numero)
-    console.log(numero + " es más chico que 11")
-
-    numero++
+numero=0;
+while(numero<19){
+    console.log("numero es más chico que 11");
+    numero=numero+1
+   
 } 
-
 
 
 

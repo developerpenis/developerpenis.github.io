@@ -1,3 +1,5 @@
+var topping = prompt("Dime que topping quieres comprar");
+
 var topping = "oreo";
 var topping = "kitkat";
 var topping = "kinder";
@@ -8,8 +10,6 @@ var preciofinal_1= 15 + 10;
 var preciofinal_2= 15 + 15;
 var preciofinal_3= 15 + 25;
 var helado=15;
-
-var topping = prompt("Dime que topping quieres comprar");
 
 if(topping === "oreo"){
     console.log("El valor de el topping seleccionado es " + precio1 + "  " + "El precio final seria " + preciofinal_1
